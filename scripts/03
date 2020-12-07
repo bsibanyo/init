@@ -1,0 +1,5 @@
+#!/bin/bash
+# Write a script of you choice.
+# Write a script which displays You
+
+echo -n 'Hello, Mr Bruce!!!'

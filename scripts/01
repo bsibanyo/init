@@ -1,0 +1,16 @@
+#!/bin/bash
+#Write a script which displays only the login, UID and Path of each entry of the
+/etc/passwd file.
+
+#  The /etc/passwd file is a colon-separated file that contains the
+#  following information:
+
+#      1 - User name
+#      2 - Encrypted password
+#      3 - User ID number (UID)
+#      4 - User's group ID number (GID)
+#      5 - Full name of the user (GECOS)
+#      6 - User home directory
+#      7 - Login shell
+
+awk -F: '{print $1 ":" $3 ":" $6}' /etc/passwd
