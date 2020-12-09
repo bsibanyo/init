@@ -1,1 +1,4 @@
-nslookup slash16.org | grep 'Server' | awk '{print $2}'
+# !/bin/bash
+#netstat -n -r | head -n 5
+
+nslookup slash16.org | grep "Server" | cut -d ":" -f2 | tr -d "\t"

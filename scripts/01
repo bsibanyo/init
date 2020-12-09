@@ -1,6 +1,5 @@
 #!/bin/bash
-#Write a script which displays only the login, UID and Path of each entry of the
-/etc/passwd file.
+#Write a script which displays only the login, UID and Path of each entry on the /etc/passwd file.
 
 #  The /etc/passwd file is a colon-separated file that contains the
 #  following information:
