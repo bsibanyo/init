@@ -1,0 +1,2 @@
+#sudo before the cmd 
+service ssh status

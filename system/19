@@ -1,0 +1,2 @@
+# service --status-all runs all init scripts, in alphabetical order:
+service --status-all

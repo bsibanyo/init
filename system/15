@@ -1,0 +1,3 @@
+#killall -- kill processes by name OR pkill tail
+
+killall tail
